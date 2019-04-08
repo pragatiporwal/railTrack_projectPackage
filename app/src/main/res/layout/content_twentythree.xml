@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_twentythree"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/rest1"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.railtrack.twentythree"
+    tools:showIn="@layout/app_bar_twentythree">
+
+  <!--  <Button
+        android:id="@+id/button22"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button18"
+        android:layout_marginBottom="71dp"
+        android:layout_x="137dp"
+        android:layout_y="427dp"
+
+        android:text="Update Food item"
+        tools:ignore="RtlCompat" />
+-->
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:layout_x="139dp"
+        android:layout_y="369dp"
+        android:text="Delete Food Item" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:layout_x="137dp"
+        android:layout_y="311dp"
+        android:text="Add food Item" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:layout_x="136dp"
+        android:layout_y="250dp"
+        android:text="View Menu" />
+
+</AbsoluteLayout>

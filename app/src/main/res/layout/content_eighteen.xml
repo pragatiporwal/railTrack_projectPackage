@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_eighteen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.railtrack.eighteen"
+    tools:showIn="@layout/app_bar_eighteen">
+
+    <Button
+        android:text="Send OTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:id="@+id/button18" />
+
+    <TextView
+        android:text="Phone Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText18"
+        android:layout_alignBaseline="@+id/textView37"
+        android:layout_alignBottom="@+id/textView37"
+        android:layout_alignStart="@+id/button18"
+        android:layout_marginStart="27dp"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_marginLeft="27dp" />
+</RelativeLayout>

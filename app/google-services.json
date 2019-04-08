@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280592603323",
+    "firebase_url": "https://railtrack-9e79c.firebaseio.com",
+    "project_id": "railtrack-9e79c",
+    "storage_bucket": "railtrack-9e79c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280592603323:android:fafae18ae91b8b50",
+        "android_client_info": {
+          "package_name": "com.example.dell.railtrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280592603323-pugtk77rpsbvugnqaflesims90lur97j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.railtrack",
+            "certificate_hash": "db08a825e2fe2202a28d8a77adad70ac817a32a6"
+          }
+        },
+        {
+          "client_id": "280592603323-9pk9i2k1dubdc3pu5l8ia4al77avs4fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3B5A4rKONOJ9aM9lmBwfmTt9DAMUBr38"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280592603323-9pk9i2k1dubdc3pu5l8ia4al77avs4fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

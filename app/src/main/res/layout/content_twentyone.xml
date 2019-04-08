@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_twentyone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/rest5"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.railtrack.twentyone"
+    tools:showIn="@layout/app_bar_twentyone"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/etnameofrestaurant"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Name of Restaurant"
+         android:textColor="#641E16"
+       />
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#641E16"
+        android:hint="Username"
+        />
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#641E16"
+        android:hint="Email"
+
+        />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#641E16"
+        android:hint="Password" />
+    <EditText
+        android:id="@+id/etphoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#641E16"
+        android:hint="Phone no"
+        android:ems="10"
+        android:inputType="phone"
+
+        />
+    <EditText
+        android:id="@+id/etaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#641E16"
+        android:hint="Address"
+        />
+    <EditText
+        android:id="@+id/etcity"
+        android:layout_width="match_parent"
+        android:textColor="#641E16"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvselect"
+    android:textColor="#FF0000"/>
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+
+        android:textSize="18sp" />
+
+
+</LinearLayout>

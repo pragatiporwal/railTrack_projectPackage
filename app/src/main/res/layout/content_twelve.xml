@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tain"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".twelve"
+    tools:showIn="@layout/app_bar_twelve">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:hint="Enter Train no"
+        android:id="@+id/ettrain"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvemail"
+        android:textColor="#FF0000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find City"
+        android:id="@+id/btnok"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvcity"
+        android:textColor="#006400"
+        android:textSize="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llcity"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rest3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Traveller_login"
+    tools:showIn="@layout/app_bar_traveller_login">
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter Email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvemail"
+        android:textColor="#FF0000"/>
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+
+        android:hint="Password" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvpass"
+        android:textColor="#FF0000"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+    <Button
+        android:id="@+id/button_newUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User" />
+    <Button
+        android:id="@+id/button_forgetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget Password" />
+</LinearLayout>
